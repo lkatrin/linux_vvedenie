@@ -1,0 +1,17 @@
+#!/bin/bash
+
+num_students=$1
+
+if [ $num_students -eq 0 ]; then
+    echo "No students"
+elif [ $num_students -eq 1 ]; then
+    echo "1 student"
+elif [ $num_students -eq 2 ]; then
+    echo "2 students"
+elif [ $num_students -eq 3 ]; then
+    echo "3 students"
+elif [ $num_students -eq 4 ]; then
+    echo "4 students"
+else
+    echo "A lot of students"
+fi
